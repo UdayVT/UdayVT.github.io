@@ -293,10 +293,9 @@
    ------------------------------------------------------ */  
 const myTags = [
     'JavaScript', 'CSS', 'HTML',
-    'C', 'C++', 'React',
-    'Python', 'Java', 'git',
-    'django', 'Node.js', 'OpenCV',
-    'GCP', 'MySQL', 'jQuery',
+    'C', 'C++',
+    'Python', 'Java', 'git', 
+	'MySQL', 'jQuery',
 ];
 
 var tagCloud = TagCloud('.content', myTags,{
