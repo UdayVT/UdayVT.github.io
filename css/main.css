@@ -1353,7 +1353,7 @@ header .logo a {
   animation: 
     typing 5s steps(60, end),
     blink-caret .75s step-end infinite;
-  animation-delay: 1.2s;
+  animation-delay: 1.1s;
 }
 
 /* The typing effect */
