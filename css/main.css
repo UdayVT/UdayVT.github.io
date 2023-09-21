@@ -1611,6 +1611,7 @@ body {
 		margin-right: 0;
 		margin-left: 0;
 	}
+
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
@@ -1648,6 +1649,9 @@ body {
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+	}
+	.tagcloud{
+		width: 300px;
 	}
 }
 
