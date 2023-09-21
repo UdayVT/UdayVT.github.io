@@ -1489,6 +1489,7 @@ header .logo a {
 		font-size: 1.5rem;
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
+		max-width: 150px;
 	}
 	.intro-content .intro-position {
 		font-size: 1.2rem;
@@ -1651,7 +1652,7 @@ body {
 		text-align: center;
 	}
 	.tagcloud{
-		width: 300px;
+		max-width: 50px;
 	}
 }
 
