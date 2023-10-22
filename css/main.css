@@ -2001,12 +2001,21 @@ body {
 	background: #cc005f;
 	border: none;
 }
+.popup-modal .media iframe
+{
+	width:550px;
+}
 @media only screen and (max-width:600px) {
 	.popup-modal {
 		width: auto;
 		margin: 0 20px;
 	}
+	.popup-modal .media iframe
+	{
+		width: 100%;
+	}
 }
+
 
 /**
  * transition effect for modal popup - (_layout.scss)
