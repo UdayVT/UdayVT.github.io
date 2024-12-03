@@ -50,7 +50,7 @@
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
 						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
 						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>			
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>			
+						<li><a class="smoothscroll"  href="#technical-writing" title="">Technical Writing</a></li>			
 					</ul>
 				</nav>    		
    		</div> <!-- /top-bar --> 
@@ -111,8 +111,7 @@
 
    	<div class="row about-content">
    			<h3>Profile</h3>
-   			<p>Hello, I'm Uday Turakhia, a sophomore at SUNY Stony Brook, majoring in Computer Science. I'm passionate about game development, having created captivating games using the Unreal Engine. I've also crafted a Python-based virtual assistant. Currently, I'm part of Stony Brook's WebGen project and involved in Data Mining and Machine Learning research with Professor Haipeng Xing. I also hold leadership roles in the Game Development and Design Club, Table Tennis Club, and AI Club. Join me as I explore the exciting world of technology and computer science. Thanks for visiting!</p>
-
+   			<p>I’m Uday Turakhia, a senior at SUNY Stony Brook University majoring in Computer Science Honors. With expertise in full-stack web development, AI-driven insights, and data visualization, I create impactful applications using tools like React, Neo4j, and Next.js. As the Recording Secretary of Tau Beta Pi and an active leader in campus organizations, I balance technical projects—such as developing innovative comment systems and researching computational models for detecting fallacious argumentation—with fostering collaboration and innovation. Passionate about problem-solving, I thrive on challenges that push the boundaries of technology while contributing to meaningful advancements in the digital world.</p>
    			<h3>Skills</h3>
    			<span class="content"></span>
 			<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
@@ -121,7 +120,6 @@
 
    	<div class="row button-section">
    		<div class="col-twelve">
-   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
    			<a href="/Uday_Turakhia_CV.pdf" title="Download CV" class="button button-primary" download="Uday_Turakhia_CV.pdf">Download CV</a>
    		</div>   		
    	</div>
@@ -219,7 +217,7 @@
 
 	   				<div class="timeline-content">
 	   					<h4>State University of New York at Stony Brook</h4>
-	   					<p>I am currently a dedicated student at the State University of New York at Stony Brook, majoring in Computer Science Honors, where I've maintained a perfect 4.0 GPA, reflecting my commitment to academic excellence. In addition to my studies, I actively engage in campus life, serving as the Secretary for the Game Development and Design Club, where I contribute to the vibrant tech community. Furthermore, I hold the role of Event Coordinator in the Table Tennis Club, fostering a sense of camaraderie and sportsmanship. Beyond these commitments, I am a valuable member of the Vertically Integrated Projects (VIP) team WebGen, contributing to innovative web development projects, and I'm deeply engaged in research under the guidance of Professor Haipeng Xing, exploring cutting-edge topics in the realm of Computer Science.</p>
+	   					<p>I am currently a dedicated student at the State University of New York at Stony Brook, majoring in Computer Science Honors, where I have maintained a strong 3.89 GPA, reflecting my commitment to academic excellence. Previously, I served as the Secretary for the Game Development and Design Club and as Event Coordinator in the Table Tennis Club, contributing to vibrant campus communities. Currently, I am the Recording Secretary of the Tau Beta Pi NY Omicron Chapter, where I support initiatives that promote academic and professional growth. My academic journey includes completing research with Professor Haipeng Xing, and I am now engaged in groundbreaking research with Professor Banerjee, focusing on computational models to detect manipulative and fallacious argumentation in contemporary information ecosystems.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -500,62 +498,67 @@
 	
    <!-- contact
    ================================================== -->
-	<section id="contact">
+   <section id="technical-writing">
 
-		<div class="row section-intro">
-   		<div class="col-twelve">
+	<style>
+	   /* Inline CSS for link styles */
+	   ul.downloads a {
+		  color: white; /* Set default color to white */
+		  text-decoration: none;
+		  font-size: 1.2em; /* Adjust font size for visibility */
+		  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effect */
+		  margin-left: 200px;
+	   }
+ 
+	   ul.downloads a:hover {
+		  color: #FF0077; /* Change to desired hover color */
+		  transform: scale(1.05); /* Slight zoom effect on hover */
+	   }
+ 
+	   ul.downloads {
+		  list-style: none;
+		  padding: 0;
+	   }
+ 
+	   ul.downloads li {
+		  margin-bottom: 15px; /* Space between list items */
+	   }
 
-   			<h5>Contact</h5>
-   			<h1>I'd Love To Hear From You.</h1>
-   		</div> 
-   	</div> <!-- /section-intro -->
-
-   	<div class="row contact-form">
-
-   		<div class="col-twelve">
-
-            <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
-      			<fieldset>
-
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
-
-      			</fieldset>
-      		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
-
-         </div> <!-- /col-twelve -->
-   		
-   	</div> <!-- /contact-form -->
+	   
+	</style>
+ 
+	<div class="row section-intro">
+	   <div class="col-twelve">
+		  <h5 style="visibility: hidden;">Technical Writing</h5>
+		  <h1 style="color: #FF0077;">Explore My Work in Technical Communication</h1>
+		  <p>My technical writing portfolio reflects my ability to convey complex concepts clearly and effectively. Below, you'll find a selection of my work that demonstrates my expertise in documentation, media releases, and collaborative problem-solving.</p>
+	   </div> 
+	</div> <!-- /section-intro -->
+ 
+	<div class="row technical-writing-content">
+	   <div class="col-twelve">
+		  <ul class="downloads">
+			 <li>
+				<a href="How-to-Refactor-Your-Code.pdf" download>
+				   <i class="fa fa-file-pdf-o"></i> How to Refactor Your Code to Be More Clear and Understandable
+				</a>
+			 </li>
+			 <li>
+				<a href="Tau-Beta-Pi-Induction-Release.pdf" download>
+				   <i class="fa fa-file-pdf-o"></i> Tau Beta Pi NY Omicron Chapter Inducts 22 New Members
+				</a>
+			 </li>
+			 <li>
+				<a href="Increasing-Zoom-Pods-On-Campus.pdf" download>
+				   <i class="fa fa-file-powerpoint-o"></i> Collaborative Problem Solving: Increasing Zoom Pods on Campus
+				</a>
+			 </li>
+		  </ul>
+	   </div> <!-- /col-twelve -->
+	</div> <!-- /technical-writing-content -->
+ 
+ </section>
+ 
 
    	<div class="row contact-info">
 
